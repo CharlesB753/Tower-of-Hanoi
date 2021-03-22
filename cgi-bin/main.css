@@ -1,0 +1,25 @@
+
+body{
+	background:white;
+	font-family:arial;
+}
+
+h1{
+	color:#555;
+}
+
+.button{
+	background-color: #4CAF50;
+	padding: 9px 20px;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.submit{
+	display: inline-block;
+
+}

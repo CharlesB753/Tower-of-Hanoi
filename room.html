@@ -1,0 +1,45 @@
+<!doctype html>
+<html> 
+	<title>Tower of Hanoi</title>
+	<head><center><h1> Tower of Hanoi </h1></center></head>
+	<body>
+		<center>
+		<img src="https://i.ytimg.com/vi/KhWJSpGApOA/maxresdefault.jpg">
+		<link rel="stylesheet" href="cgi-bin/main.css"/></link>
+		</center>
+		<br><br>
+			<center> Your Mana:1   Your gold: 0		
+		<p> 
+			<center><p>
+								
+				<form action="cgi-bin/room.cgi" method="get">
+					<input type="hidden" name="inventory" value="1,0">
+					<input type="text" placeholder="play, drop, refresh, exit" name="input"/>
+					<input type="submit" value="Submit"/>
+					<input type="reset" value="Reset"/> 
+				</form>
+				<br> <br>	
+				<form action="http://cs.mcgill.ca/~ychen286/cgi-bin/transporter.py" class="button">
+					<input type="hidden" name="inventory" value="1,0">
+					<input type="hidden" name="URL" value="http://cs.mcgill.ca/~cbelis3/">
+					<input type="submit" value="North" />
+				</form>
+				<form action="http://cs.mcgill.ca/~bcumin1/cgi-bin/transporter.py" class="button">
+					<input type="hidden" name="inventory" value="1,0">
+					<input type="hidden" name="URL" value="https://cs.mcgill.ca/~cbelis3/">
+					<input type="submit" value="West" />
+				</form>
+				<form action="http://cs.mcgill.ca/~ychen286/cgi-bin/transporter.py" class="button">
+					<input type="hidden" name="inventory" value="1,0">
+					<input type="hidden" name="URL" value="http://cs.mcgill.ca/~cbelis3/">
+					<input type="submit" value="East" />
+				</form>
+				<form action="http://cs.mcgill.ca/~bcumin1/cgi-bin/transporter.py" class="button">
+					<input type="hidden" name="inventory" value="1,0">
+					<input type="hidden" name="URL" value="https://cs.mcgill.ca/~cbelis3/">
+					<input type="submit" value="South" />
+				</form>
+			</p></center>
+		</p>`
+	</body>
+</html>
